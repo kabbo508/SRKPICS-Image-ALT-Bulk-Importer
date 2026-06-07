@@ -1,0 +1,98 @@
+.srkpics-alt-wrap {
+    max-width: 1200px;
+}
+
+.srkpics-card {
+    background: #fff;
+    border: 1px solid #dcdcde;
+    border-radius: 8px;
+    padding: 22px;
+    margin: 22px 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+
+.srkpics-card h2 {
+    margin-top: 0;
+}
+
+.srkpics-check {
+    display: block;
+    margin: 16px 0;
+}
+
+.srkpics-hidden {
+    display: none !important;
+}
+
+#srkpics-upload-message {
+    display: none;
+    margin-top: 16px;
+    padding: 1px 12px;
+    border-left: 4px solid #00a32a;
+    background: #fff;
+}
+
+#srkpics-upload-message.notice-error {
+    border-left-color: #d63638;
+}
+
+.srkpics-stats {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(120px, 1fr));
+    gap: 14px;
+    margin: 18px 0;
+}
+
+.srkpics-stats div {
+    background: #f6f7f7;
+    border: 1px solid #dcdcde;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.srkpics-stats strong {
+    display: block;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.srkpics-stats span {
+    display: block;
+    color: #50575e;
+    margin-top: 4px;
+}
+
+.srkpics-progress {
+    width: 100%;
+    height: 28px;
+    background: #f0f0f1;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #dcdcde;
+}
+
+#srkpics-progress-bar {
+    width: 0;
+    height: 100%;
+    background: #2271b1;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    transition: width .2s ease;
+}
+
+#srkpics-live-log {
+    background: #111827;
+    color: #d1fae5;
+    padding: 14px;
+    height: 300px;
+    overflow: auto;
+    font-family: Consolas, Monaco, monospace;
+    border-radius: 6px;
+    white-space: pre-wrap;
+}
+
+#srkpics-live-log div {
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    padding: 5px 0;
+}
